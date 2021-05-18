@@ -1,6 +1,6 @@
 {
   "name": "debouncex",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Promise-based debouncer.",
   "main": "src/debouncex.js",
   "type": "module",

@@ -1,11 +1,10 @@
-export class Debouncex {
+export class Nexbounce {
   #taskWatcher = null;
   #callLatest;
   #cancelPrevious;
 
   /**
-   *
-   * @param {function} task A function to be added to the Debouncex instance queue.
+   * @param {function} task A function to be added to the Nexbounce instance queue.
    */
 
   enqueue(task) {

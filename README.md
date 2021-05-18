@@ -1,23 +1,23 @@
-# debouncex
+# nexbounce
 
 Promise-based debouncer.
 
 ## Installation
 
-`npm i debouncex`
+`npm i nexbounce`
 
 ## Example
 
 ```js
-import { Debouncex } from 'debouncex';
+import { Nexbounce } from 'nexbounce';
 
 let counter = 0;
 
-const debouncex = new Debouncex();
+const nexbounce = new Nexbounce();
 
-debouncex.enqueue(() => (counter += 3));
-debouncex.enqueue(() => (counter += 1));
-debouncex.enqueue(() => (counter += 2));
+nexbounce.enqueue(() => (counter += 3));
+nexbounce.enqueue(() => (counter += 1));
+nexbounce.enqueue(() => (counter += 2));
 
 setTimeout(() => console.log(couter)); // 2
 ```

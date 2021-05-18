@@ -2,10 +2,14 @@
 
 Promise-based debouncer.
 
+![npm](https://img.shields.io/npm/v/nexbounce)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/nexbounce?label=minzipped%20size)
+![NPM](https://img.shields.io/npm/l/nexbounce)
+
 ## Installation
 
 ```
-npm i nexbounce
+$ npm i nexbounce
 ```
 
 ## Example

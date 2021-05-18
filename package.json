@@ -5,6 +5,9 @@
   "main": "src/debouncex.js",
   "type": "module",
   "module": "src/debouncex.js",
+  "files": [
+    "src/**/*"
+  ],
   "scripts": {
     "test": "mocha",
     "prepublishOnly": "npm test",

@@ -1,0 +1,31 @@
+{
+  "name": "debouncex",
+  "version": "1.0.0",
+  "description": "Promise-based debouncer.",
+  "main": "src/debouncex.js",
+  "type": "module",
+  "module": "src/debouncex.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublishOnly": "npm test",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hawmex/debouncex.git"
+  },
+  "keywords": [
+    "debounce",
+    "promise"
+  ],
+  "author": "Hamed Aarab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hawmex/debouncex/issues"
+  },
+  "homepage": "https://github.com/Hawmex/debouncex#readme",
+  "devDependencies": {
+    "mocha": "^8.4.0"
+  }
+}

@@ -23,7 +23,7 @@
     "promise"
   ],
   "author": "Hamed Aarab",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Hawmex/debouncex/issues"
   },

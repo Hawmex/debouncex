@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Batches calls and calls the last task in its queue.
  *

@@ -1,6 +1,6 @@
 # debouncex
 
-Promise-based debouncex.
+Promise-based debouncer.
 
 ## Installation
 

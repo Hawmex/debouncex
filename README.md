@@ -4,7 +4,9 @@ Promise-based debouncer.
 
 ## Installation
 
-`npm i nexbounce`
+```
+npm i nexbounce
+```
 
 ## Example
 

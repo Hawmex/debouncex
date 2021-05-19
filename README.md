@@ -25,5 +25,5 @@ nexbounce.enqueue(() => (counter += 3));
 nexbounce.enqueue(() => (counter += 1));
 nexbounce.enqueue(() => (counter += 2));
 
-setTimeout(() => console.log(couter)); // 2
+setTimeout(() => console.log(counter)); // 2
 ```

@@ -1,6 +1,6 @@
 {
   "name": "nexbounce",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Promise-based debouncer.",
   "main": "src/nexbounce.js",
   "type": "module",

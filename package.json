@@ -1,7 +1,7 @@
 {
   "name": "nexbounce",
   "version": "1.0.15",
-  "description": "Promise-based debouncer.",
+  "description": "A debouncer library based on microtasks.",
   "main": "src/nexbounce.js",
   "type": "module",
   "module": "src/nexbounce.js",
@@ -24,7 +24,10 @@
   },
   "keywords": [
     "debounce",
-    "promise"
+    "debounced",
+    "promise",
+    "defer",
+    "deferred"
   ],
   "author": "Hamed Aarab",
   "license": "MIT",

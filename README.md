@@ -1,15 +1,17 @@
 # nexbounce
 
-Promise-based debouncer.
+A debouncer library based on microtasks.
+
+It's easy to install and easy to use, besides being light-weight.
 
 ![npm](https://img.shields.io/npm/v/nexbounce)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/nexbounce?label=minzipped%20size)
+![npm](https://img.shields.io/npm/dw/nexbounce)
 ![NPM](https://img.shields.io/npm/l/nexbounce)
 
 ## Installation
 
 ```
-$ npm i nexbounce
+npm i nexbounce
 ```
 
 ## Example

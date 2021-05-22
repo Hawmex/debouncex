@@ -1,6 +1,6 @@
 {
   "name": "nexbounce",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "A debouncer library based on microtasks.",
   "main": "src/nexbounce.js",
   "type": "module",

@@ -8,6 +8,10 @@ It's easy to install and easy to use, besides being light-weight.
 ![npm](https://img.shields.io/npm/dw/nexbounce)
 ![NPM](https://img.shields.io/npm/l/nexbounce)
 
+## Demo
+
+You can try the demo [here](https://codepen.io/Hawmed/pen/bGqgGrR).
+
 ## Installation
 
 ```

@@ -13,8 +13,7 @@
     "src/**/*"
   ],
   "scripts": {
-    "test": "mocha",
-    "prepublishOnly": "npm test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
@@ -34,8 +33,5 @@
   "bugs": {
     "url": "https://github.com/Hawmex/nexbounce/issues"
   },
-  "homepage": "https://github.com/Hawmex/nexbounce#readme",
-  "devDependencies": {
-    "mocha": "^8.4.0"
-  }
+  "homepage": "https://github.com/Hawmex/nexbounce#readme"
 }

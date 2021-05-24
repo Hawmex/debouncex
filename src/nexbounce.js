@@ -21,10 +21,6 @@ export class Nexbounce {
   #callLatest;
   #cancelPrevious;
 
-  /**
-   * @param {() => void} task A function to be added to the Nexbounce instance queue.
-   */
-
   enqueue(task) {
     if (this.#taskWatcher !== null) this.#cancelPrevious();
 

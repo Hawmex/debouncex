@@ -22,7 +22,7 @@ export class Nexbounce {
   #cancelPrevious;
 
   /**
-   * @param {Function} task A function to be added to the Nexbounce instance queue.
+   * @param {() => void} task A function to be added to the Nexbounce instance queue.
    */
 
   enqueue(task) {

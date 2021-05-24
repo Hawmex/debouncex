@@ -1,10 +1,8 @@
 'use strict';
 
 /**
- * Batches calls and calls the last task in its queue.
- *
- * Example:
- * ```js
+ * @classdesc Batches calls and calls the last task in its queue.
+ * @example
  * import { Nexbounce } from 'nexbounce';
  *
  * const nexbounce = new Nexbounce();
@@ -16,7 +14,6 @@
  * nexbounce.enqueue(() => (counter += 2));
  *
  * setTimeout(() => console.log(counter)); // 2
- * ```
  */
 
 export class Nexbounce {

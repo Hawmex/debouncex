@@ -1,5 +1,3 @@
-'use strict';
-
 export class Nexbounce {
   #taskWatcher = null;
   #callLatest;

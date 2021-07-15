@@ -13,7 +13,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "build": "tsc",
     "version": "git add -A src",
     "postversion": "git push && git push --tags",
     "prepare": "npm run build"

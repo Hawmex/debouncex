@@ -35,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/Hawmex/nexbounce/issues"
   },
-  "homepage": "https://github.com/Hawmex/nexbounce#readme"
+  "homepage": "https://github.com/Hawmex/nexbounce#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }

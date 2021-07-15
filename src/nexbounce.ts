@@ -1,7 +1,9 @@
-type TaskWatcher = Promise<void> | null;
+export type TaskWatcher = Promise<void> | null;
+
 type LatestCaller = (() => void) | null;
 type PreviousCanceller = (() => void) | null;
-type NexbounceTask = () => void;
+
+export type NexbounceTask = () => void;
 
 export class Nexbounce {
   #taskWatcher: TaskWatcher = null;

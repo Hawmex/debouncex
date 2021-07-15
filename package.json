@@ -2,19 +2,21 @@
   "name": "nexbounce",
   "version": "1.0.22",
   "description": "A debouncer library based on microtasks.",
-  "main": "src/nexbounce.js",
+  "main": "dist/nexbounce.js",
   "type": "module",
-  "module": "src/nexbounce.js",
+  "module": "dist/nexbounce.js",
   "engines": {
     "node": ">=14.6.0",
     "npm": ">=7.13.0"
   },
   "files": [
-    "src/**/*"
+    "dist/**/*"
   ],
   "scripts": {
+    "build": "rm -rf dist && tsc",
     "version": "git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",

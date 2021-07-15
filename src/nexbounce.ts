@@ -1,10 +1,10 @@
 export class Nexbounce {
-  #taskWatcher = null;
-  #callLatest;
-  #cancelPrevious;
+  #taskWatcher: Promise<void> | null = null;
+  #callLatest: (() => void) | null = null;
+  #cancelPrevious: (() => void) | null = null;
 
-  enqueue(task) {
-    if (this.#taskWatcher !== null) this.#cancelPrevious();
+  enqueue(task: () => void) {
+    if (this.#taskWatcher !== null) this.#cancelPrevious?.();
 
     this.#taskWatcher = new Promise((resolve, reject) => {
       this.#callLatest = resolve;

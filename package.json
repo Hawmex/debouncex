@@ -16,7 +16,7 @@
     "build": "rm -rf dist && tsc",
     "version": "git add -A src",
     "postversion": "git push && git push --tags",
-    "prepublishOnly": "npm run build"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

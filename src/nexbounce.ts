@@ -1,16 +1,16 @@
-type TaskWatcher = Promise<void> | null;
-type LatestCaller = (() => void) | null;
-type PreviousCanceller = (() => void) | null;
+type TaskWatcher = Promise<void>;
+type LatestCaller = () => void;
+type PreviousCanceller = () => void;
 
 export type Task = () => void;
 
 export class Nexbounce {
-  #taskWatcher: TaskWatcher = null;
-  #callLatest: LatestCaller = null;
-  #cancelPrevious: PreviousCanceller = null;
+  #taskWatcher?: TaskWatcher;
+  #callLatest?: LatestCaller;
+  #cancelPrevious?: PreviousCanceller;
 
   enqueue(task: Task) {
-    if (this.#taskWatcher !== null) this.#cancelPrevious?.();
+    if (this.#taskWatcher !== undefined) this.#cancelPrevious?.();
 
     this.#taskWatcher = new Promise((resolve, reject) => {
       this.#callLatest = resolve;
@@ -20,7 +20,7 @@ export class Nexbounce {
     this.#taskWatcher
       .then(task)
       .catch(() => {})
-      .finally(() => (this.#taskWatcher = null));
+      .finally(() => (this.#taskWatcher = undefined));
 
     Promise.resolve().then(this.#callLatest);
   }

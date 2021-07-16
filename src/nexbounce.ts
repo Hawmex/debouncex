@@ -1,5 +1,4 @@
-export type TaskWatcher = Promise<void> | null;
-
+type TaskWatcher = Promise<void> | null;
 type LatestCaller = (() => void) | null;
 type PreviousCanceller = (() => void) | null;
 

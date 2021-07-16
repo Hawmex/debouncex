@@ -13,7 +13,7 @@ export class Nexbounce {
   enqueue(task: NexbounceTask): void {
     if (this.#taskWatcher !== null) this.#cancelPrevious?.();
 
-    this.#taskWatcher = new Promise((resolve, reject) => {
+    this.#taskWatcher = new Promise((resolve: LatestCaller, reject: PreviousCanceller) => {
       this.#callLatest = resolve;
       this.#cancelPrevious = reject;
     });

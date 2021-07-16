@@ -18,6 +18,16 @@ You can try the demo [here](https://codepen.io/Hawmed/pen/bGqgGrR).
 npm i nexbounce
 ```
 
+## Definition (TypeScript)
+
+```ts
+declare type Task = () => void;
+
+declare class Nexbounce {
+  enqueue(task: Task): void;
+}
+```
+
 ## Example
 
 ```js

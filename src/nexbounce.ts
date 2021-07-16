@@ -2,14 +2,14 @@ type TaskWatcher = Promise<void> | null;
 type LatestCaller = (() => void) | null;
 type PreviousCanceller = (() => void) | null;
 
-export type NexbounceTask = () => void;
+export type Task = () => void;
 
 export class Nexbounce {
   #taskWatcher: TaskWatcher = null;
   #callLatest: LatestCaller = null;
   #cancelPrevious: PreviousCanceller = null;
 
-  enqueue(task: NexbounceTask): void {
+  enqueue(task: Task): void {
     if (this.#taskWatcher !== null) this.#cancelPrevious?.();
 
     this.#taskWatcher = new Promise((resolve: LatestCaller, reject: PreviousCanceller) => {

@@ -4,9 +4,10 @@ A debouncer library based on microtasks.
 
 It's easy to install and easy to use, besides being light-weight.
 
-![npm](https://img.shields.io/npm/v/nexbounce)
-![npm](https://img.shields.io/npm/dw/nexbounce)
-![NPM](https://img.shields.io/npm/l/nexbounce)
+[![npm version](https://img.shields.io/npm/v/nexbounce?style=for-the-badge)](https://npmjs.com/packages/nexbounce)
+[![npm downloads](https://img.shields.io/npm/dw/nexbounce?style=for-the-badge)](https://npmjs.com/packages/nexbounce)
+[![github issues](https://img.shields.io/github/issues/Hawmex/nexbounce?style=for-the-badge)](https://github.com/Hawmex/nexbounce/issues)
+[![license](https://img.shields.io/npm/l/nexbounce?style=for-the-badge)](https://github.com/Hawmex/nexbounce)
 
 ## Demo
 

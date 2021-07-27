@@ -19,6 +19,10 @@ You can try the demo [here](https://codepen.io/Hawmed/pen/bGqgGrR).
 npm i nexbounce
 ```
 
+## Documentation
+
+You can find documentation [here](https://hawmex.github.io/nexbounce/).
+
 ## Example
 
 ```js

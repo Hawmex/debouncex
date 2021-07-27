@@ -2,5 +2,5 @@
   "out": "docs",
   "entryPoints": ["src/nexbounce.ts"],
   "excludePrivate": true,
-  "watch": true
+  "includeVersion": true
 }

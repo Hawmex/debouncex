@@ -1,6 +1,6 @@
 {
   "name": "nexbounce",
-  "version": "3.0.9",
+  "version": "3.0.8",
   "description": "A debouncer library based on microtasks.",
   "main": "dist/nexbounce.js",
   "type": "module",
@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "build": "npx tsc",
-    "postversion": "npx typedoc && git push",
+    "version": "npx typedoc && git add -A docs",
+    "postversion": "git push",
     "prepare": "npm run build"
   },
   "repository": {

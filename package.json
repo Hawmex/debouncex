@@ -14,8 +14,8 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "npx tsc && npx prettier dist --write",
-    "version": "npx typedoc && npx prettier docs --write && git add -A docs",
+    "build": "npx tsc && npx prettier dist/**/* --write",
+    "version": "npx typedoc && npx prettier docs/**/* --write && git add -A docs",
     "postversion": "git push && git push --tags",
     "prepare": "npm run build"
   },

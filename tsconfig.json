@@ -3,7 +3,7 @@
     "composite": true,
     "target": "ESNext",
     "module": "ESNext",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "declaration": true,
     "outDir": "dist",
     "rootDir": "src",

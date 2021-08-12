@@ -22,6 +22,6 @@ export class Nexbounce {
       .catch(() => {})
       .finally(() => (this.#taskWatcher = undefined));
 
-    Promise.resolve().then(this.#callLatest);
+    queueMicrotask(this.#callLatest!);
   }
 }

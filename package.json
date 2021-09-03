@@ -4,13 +4,12 @@
   "description": "A debouncer library based on microtasks.",
   "type": "module",
   "exports": {
-    ".": "./dist/nexbounce.js"
+    "./**/*.js": "./dist/**/*.js"
   },
   "typesVersions": {
     "*": {
       "*": [
-        "dist/*",
-        "dist/nexbounce.d.ts"
+        "dist/*"
       ]
     }
   },

@@ -9,7 +9,8 @@
   "typesVersions": {
     "*": {
       "*": [
-        "dist/*"
+        "dist/*",
+        "dist/nexbounce.d.ts"
       ]
     }
   },

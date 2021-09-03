@@ -2,16 +2,16 @@
   "name": "nexbounce",
   "version": "5.1.3",
   "description": "A debouncer library based on microtasks.",
-  "main": "dist/nexbounce.js",
   "type": "module",
-  "module": "dist/nexbounce.js",
-  "types": "dist/nexbounce.d.ts",
   "exports": {
     ".": "./dist/nexbounce.js"
   },
-  "engines": {
-    "node": ">=14.6.0",
-    "npm": ">=7.13.0"
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/*"
+      ]
+    }
   },
   "files": [
     "dist/**/*"

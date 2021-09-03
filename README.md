@@ -24,7 +24,7 @@ You can find documentation [here](https://hawmex.github.io/nexbounce/).
 ## Example
 
 ```js
-import { Nexbounce } from 'nexbounce';
+import { Nexbounce } from 'nexbounce/nexbounce.js';
 
 let counter = 0;
 

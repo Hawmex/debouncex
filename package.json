@@ -6,6 +6,9 @@
   "type": "module",
   "module": "dist/nexbounce.js",
   "types": "dist/nexbounce.d.ts",
+  "exports": {
+    ".": "./dist/nexbounce.js"
+  },
   "engines": {
     "node": ">=14.6.0",
     "npm": ">=7.13.0"
@@ -38,7 +41,7 @@
   "homepage": "https://github.com/Hawmex/nexbounce#readme",
   "devDependencies": {
     "prettier": "^2.3.2",
-    "typedoc": "^0.21.7",
+    "typedoc": "^0.21.9",
     "typescript": "^4.4.2"
   }
 }

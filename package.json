@@ -4,7 +4,7 @@
   "description": "A debouncer library based on microtasks.",
   "type": "module",
   "exports": {
-    "./**/*.js": "./dist/**/*.js"
+    "./*.js": "./dist/*.js"
   },
   "typesVersions": {
     "*": {

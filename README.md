@@ -24,11 +24,11 @@ You can find documentation [here](https://hawmex.github.io/nexbounce/).
 ## Example
 
 ```js
-import { Nexbounce } from 'nexbounce/nexbounce.js';
+import { Debouncer } from 'nexbounce/nexbounce.js';
 
 let counter = 0;
 
-const nexbounce = new Nexbounce();
+const debouncer = new Debouncer();
 
 nexbounce.enqueue(() => (counter += 3));
 nexbounce.enqueue(() => (counter += 1));

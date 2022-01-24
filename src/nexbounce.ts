@@ -1,4 +1,4 @@
-export class Nexbounce {
+export class Debouncer {
   #taskWatcher?: Promise<void>;
   #callLatest?: () => void;
   #cancelPrevious?: () => void;
